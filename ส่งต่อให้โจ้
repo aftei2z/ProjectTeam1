@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>ท่องเที่ยวจังหวัดเชียงใหม่</title>
+  <link rel = "stylesheet" text="text/css" href="Project.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+  }
+  </style>
+
+</head>
+<body>
+  <!-- Start Slide Show-->
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <!--<li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>-->
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="a1.png" alt="Chania" width="100%">
+    </div>
+
+    <div class="item">
+      <img src="a2.jpg" alt="Chania" width="100%">
+    </div>
+
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+    <!--End Slide Show-->
+
+    <h1><center><b>ทริปนี้ทำอะไรบ้าง?</b></h1>
+    <p><font size=4><FONT COLOR="#0000FF"><center>เป็นกิจกรรมท่องเที่ยวสถานที่ต่างๆในจังหวัดเชียงใหม่<br>
+    โดยทุกคนสามารถถ่ายภาพเก็บบรรยากาศเอาไว้ได้อีกด้วย ทำให้ได้รับความสนุกสนาน และเก็บภาพความทรงจำเอาไว้<br>
+    พร้อมกิจกรรมสนุกๆที่เราจะร่วมกันในทริปนี้</font></p>
+    <p><font size=5><center><FONT COLOR="#B22222"><b>เริ่มสมัครได้ตั้งแต่วันนี้ ถึง 15 พฤศจิกายน 2559</b></font></p>
+    <h2><center><b>กำหนดการ</b></h2>
+    <div class="container">
+    <!-- <table border = 2 align = "center" width="80%" height="20%" bgcolor="FUCHSIA"> -->
+    <table class="table table-bodered table-hover table-condensed table-striped"  border = 0 align = "center" width="80%" height="20%" bgcolor="FUCHSIA">
+    <!--<table border = 2 align = "center" width="80%" height="20%" bgcolor="FUCHSIA"> -->
+    <!--
+          <tr>
+              <th>วันที่</th>
+              <th>เวลา</th>
+              <th>รายละเอียด</th>
+          </tr>
+    -->
+          <tr>
+              <td>27 ธันวาคม 2559</td>
+              <td>08.00-11.00 น.</td>
+              <td>ออกเดินทางจาก KMUTT ถึงจังหวัดเชียงใหม่(ไปโดยเครื่องบิน)</td>
+          </tr>
+          <tr>
+              <td></td>
+              <td>11.00-12.00</td>
+              <td>รับประทานอาหารกลางวัน</td>
+          </tr>
+          <tr>
+              <td></td>
+              <td>13.00-16.00</td>
+              <td>พักผ่อนที่แกรนด์แคนยอนหางดง อ.หางดง</td>
+          </tr>
+          <tr>
+              <td></td>
+              <td>17.00-18.00</td>
+              <td>รับประทานอาหารเย็น</td>
+          </tr>
+          <tr>
+              <td></td>
+              <td>18.30-20.00</td>
+              <td>ชมวิวสวยๆ และถ่ายพระอาทิตย์ตกที่ม่อนแจ่ม อ.แม่ริม</td>
+          </tr>
+          <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+          </tr>
+          <tr>
+              <td>28 ธันวาคม 2559</td>
+              <td>09.00-12.00</td>
+              <td>นั่งชมบรรยากาศ น้ำพุร้อนสันกำแพง อ.สันกำแพง</td>
+          </tr>
+          <tr>
+              <td></td>
+              <td>12.00-13.00</td>
+              <td>รับประทานอาหารกลางวัน</td>
+          </tr>
+          <tr>
+              <td></td>
+              <td>14.00-17.00</td>
+              <td>ชมวิวสวยๆ อุทยานแห่งชาติห้วยน้ำดัง อ.แม่แตง</td>
+          </tr>
+          <tr>
+              <td></td>
+              <td>17.30-18.30</td>
+              <td>รับประทานอาหารเย็น</td>
+          </tr>
+          <tr>
+              <td></td>
+              <td>19.00-21.00</td>
+              <td>ทำกิจกรรมสันทนาการต่างๆ</td>
+          </tr>
+          <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+          </tr>
+          <tr>
+              <td>29 ธันวาคม 2559</td>
+              <td>6.00-8.00</td>
+              <td>ชมทะเลหมอกยามเช้า และพระอาทิตย์ขึ้น อ.แม่แตง</td>
+          </tr>
+          <tr>
+              <td></td>
+              <td>9.00-12.00</td>
+              <td>รับประทาน พร้อมแวะซื้อของฝากจังหวัดเชียงใหม่</td>
+          </tr>
+          <tr>
+              <td></td>
+              <td>13.00</td>
+              <td>เดินทางกลับ KMUTT โดยสวัสดิภาพ</td>
+          </tr>
+      </div>
+      </table>
+      </div>
+      <h3><b>สิ่งที่ต้องเตรียม</b></h3>
+      <ol>
+          <li><p class="hello hfront1">กล้องถ่ายรูป</p></li>
+          <li><p class="hello" id="li1">เสื้อผ้าสำหรับ 3 วัน 2 คืน</p></li>
+          <li><p class="hello hfront2">ยารักษาโรคประจำตัว<b>(ถ้ามี)</b></p></li>
+          <li><p class="hello hfront3">อุปกรณ์สำหรับอาบน้ำ</p></li>
+      </ol>
+
+</body>
+</html>

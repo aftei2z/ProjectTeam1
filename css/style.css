@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'CaviarDreams';
+    font-style: normal;
+    font-weight: normal;
+    src: url('CaviarDreams.ttf');
+}
+
+@charset "utf-8" body {
+    font-family: 'CaviarDreams';
+    font-size: 14px;
+}
+
+.navbar-custom {
+    border: 2px;
+    height: 50px !important;
+    background-color: #ff933a;
+}
+
+.floorgray {
+    background-color: #f7f7f7;
+    width: 100%;
+    height: 100%;
+}
+
+.floorwhite {
+    background-color: #fcfcfc;
+}
+
+.main {
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.mid {
+    background-color: #f9f9f9;
+    padding-bottom: 80px;
+    height: 800px;
+}
+
+.navy {
+    color: white !important;
+}
+
+.nav-div {
+    float: right;
+    font-size: 21px;
+}
+
+.branny {
+    color: white;
+    font-size: 32px;
+}
+
+.walee {
+    padding-top: 200px;
+}
+
+.roewe {
+    height: 70px;
+    padding-top: 30px;
+}
+
+.sector {
+    width: 1920px;
+    height: 1080zpx;
+}
+
+.pagee {
+    height: 100%;
+}
+.wrap {
+    margin: 0 auto;
+    position: relative
+    overflow:hidden;
+}
+.section__content {
+    position: relative
+    box-sizing: border-box
+    .intro-section {
+        height: 100%;
+        padding-top: 150px;
+        text-align: center;
+        background: #fff;
+    }
+
+    .about-section {
+        height: 100%;
+        padding-top: 150px;
+        text-align: center;
+        background: #eee;
+    }
+
+    .services-section {
+        height: 100%;
+        padding-top: 150px;
+        text-align: center;
+        background: #fff;
+    }
+
+    .contact-section {
+        height: 100%;
+        padding-top: 150px;
+        text-align: center;
+        background: #eee;
+    }

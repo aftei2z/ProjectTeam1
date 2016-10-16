@@ -79,30 +79,19 @@
 .section__content {
     position: relative
     box-sizing: border-box
-    .intro-section {
-        height: 100%;
-        padding-top: 150px;
-        text-align: center;
-        background: #fff;
-    }
+    heigh: 100%;
+  }
+.space{
+  width:10px;
+}
 
-    .about-section {
-        height: 100%;
-        padding-top: 150px;
-        text-align: center;
-        background: #eee;
-    }
 
-    .services-section {
-        height: 100%;
-        padding-top: 150px;
-        text-align: center;
-        background: #fff;
-    }
 
-    .contact-section {
-        height: 100%;
-        padding-top: 150px;
-        text-align: center;
-        background: #eee;
-    }
+
+
+
+
+
+
+
+  }

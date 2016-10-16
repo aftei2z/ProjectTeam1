@@ -79,6 +79,7 @@
 .section__content {
     position: relative
     box-sizing: border-box
+<<<<<<< HEAD
     heigh: 100%;
   }
 .space{
@@ -95,3 +96,35 @@
 
 
   }
+=======
+    .intro-section {
+        height: 100%;
+        padding-top: 150px;
+        text-align: center;
+        background: #fff;
+    }
+
+    .about-section {
+        height: 100%;
+        padding-top: 150px;
+        text-align: center;
+        background: #eee;
+    }
+
+    .services-section {
+        height: 100%;
+        padding-top: 150px;
+        text-align: center;
+        background: #fff;
+    }
+
+    .contact-section {
+        height: 100%;
+        padding-top: 150px;
+        text-align: center;
+        background: #eee;
+    }
+.formSpace{
+  padding-left: 12px;
+}
+>>>>>>> e25192e2b86d3637b8bd194768c355ee244edbcb

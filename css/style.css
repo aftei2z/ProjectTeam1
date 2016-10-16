@@ -72,6 +72,7 @@
     height: 100%;
 }
 .wrap {
+    height: 900px !important;
     margin: 0 auto;
     position: relative
     overflow:hidden;

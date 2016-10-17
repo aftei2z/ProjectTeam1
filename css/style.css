@@ -80,6 +80,24 @@
 .section__content {
     position: relative
     box-sizing: border-box
+<<<<<<< HEAD
+    heigh: 100%;
+  }
+.space{
+  width:10px;
+}
+
+
+
+
+
+
+
+
+
+
+  }
+=======
     .intro-section {
         height: 100%;
         padding-top: 150px;
@@ -110,3 +128,4 @@
 .formSpace{
   padding-left: 12px;
 }
+>>>>>>> e25192e2b86d3637b8bd194768c355ee244edbcb

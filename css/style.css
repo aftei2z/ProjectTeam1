@@ -71,8 +71,8 @@
 .pagee {
     height: 100%;
 }
-.wrap {
-    height: 900px !important;
+.warp {
+    height: 100vh !important;
     margin: 0 auto;
     position: relative
     overflow:hidden;

@@ -234,6 +234,7 @@
     </div>
 
 
+<<<<<<< HEAD
     <script src="js/jquery.js" type="text/javascript"></script>
     <!--  <script src="js/scrolling-nav.js" type="text/javascript"></script>-->
     <script type="text/javascript">
@@ -264,6 +265,22 @@
 
         function myFunction() {
             swal("Thankyou for joining us!", "See you on 27th Dec", "success");
+=======
+  <script src="js/jquery.js" type="text/javascript"></script>
+  <!--  <script src="js/scrolling-nav.js" type="text/javascript"></script>-->
+  <script type="text/javascript">
+  //jQuery to collapse the navbar on scroll
+  $(function() {
+    $('a[href*="#"]:not([href="#"])').click(function() {
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+          $('html, body').animate({
+            scrollTop: target.offset().top
+          }, 1000);
+          return false;
+>>>>>>> db7e392f43f113e988eca1efa73028f34aeca7b1
         }
     </script>
     <script src="js/jssor.slider-21.1.6.mini.js" type="text/javascript"></script>

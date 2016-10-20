@@ -11,22 +11,31 @@ body {
     font-size: 14px;
 }
 @media(min-width:767px) {
-    .navbar {
+.navbar {
         padding: 20px 0;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
-    }
+}
 
-    .top-nav-collapse {
+.top-nav-collapse {
         padding: 0;
-    }
+}
+}
+.bannerdivvy{
+  padding-top: 50px;
 }
 
 .navbar-custom {
     border: 2px;
     height: 50px !important;
-    background-color: #ff933a;
+    background-color: #5b5b5b;
+
+}
+.brandImg{
+  width: 40px;
+  height: 40px;
+  padding-left: 30px;
 }
 
 .floorgray {
@@ -60,6 +69,7 @@ body {
 .nav-div {
     float: right;
     font-size: 21px;
+    fix
 }
 
 .branny {
@@ -99,29 +109,25 @@ body {
 .space{
   width:10px;
 }
-
-    .intro-section {
+.intro-section {
         height: 100%;
         padding-top: 150px;
         text-align: center;
         background: #fff;
-    }
-
-    .about-section {
+  }
+.about-section {
         height: 100%;
         padding-top: 150px;
         text-align: center;
         background: #eee;
-    }
-
-    .services-section {
+}
+.services-section {
         height: 100%;
         padding-top: 150px;
         text-align: center;
         background: #fff;
-    }
-
-    .contact-section {
+}
+.contact-section {
         height: 100%;
         padding-top: 150px;
         text-align: center;
@@ -129,4 +135,8 @@ body {
     }
 .formSpace{
   padding-left: 12px;
+}
+.nav-brand{
+  height: 40px;
+  width: 40px;
 }
